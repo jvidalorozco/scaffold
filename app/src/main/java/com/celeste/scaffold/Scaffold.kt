@@ -118,7 +118,7 @@ fun ScaffoldView() {
                     } },
                 bottomBar = { BottomNavigationView() },
                 floatingActionButton = { FabView() },
-                floatingActionButtonPosition = FabPosition.End,
+                floatingActionButtonPosition = FabPosition.Center,
                 snackbarHost = { SnackbarHost(hostState = snackbarHostState) },
                 content = { padding ->
                     Box(
